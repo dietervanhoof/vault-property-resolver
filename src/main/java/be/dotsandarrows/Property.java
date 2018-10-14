@@ -6,11 +6,7 @@ public class Property {
 	private final String value;
 	
 	public Property(String value) {
-		if (value.startsWith("$")) {
-			this.value = new StandardEnvironment().resolvePlaceholders(value);
-		} else {
-			this.value = value;
-		}
+		this.value = new StandardEnvironment().resolvePlaceholders(value);
 	}
 	
 	public final String getValue() {

@@ -1,7 +1,7 @@
 # [Vault](https://www.vaultproject.io/) property resolver
 
 ## Description
-A library that can be used to provide [Properties](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html) to a placeholder whilst getting the properties from [HaspiCorp Vault](https://www.vaultproject.io/) instead of a file.
+A library that can be used to provide [Properties](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html) to a placeholder whilst getting the properties from [HashiCorp Vault](https://www.vaultproject.io/) instead of a file.
 This library uses the [BetterCloud Vault Java Driver](https://github.com/BetterCloud/vault-java-driver).
 
 ## Usage
